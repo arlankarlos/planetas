@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Big Bang Universe!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Big Bang Universe!</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contato</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li>
+            <a href="https://www.youtube.com/@NASA" target="_blank">NASA</a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/playlist?list=PLdKA-kiXetVLhdP0cCPtXqp5VCcH2hNw2"
+              target="_blank"
+              >ASTRUM BRASIL</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>Seja bem-vindo!</p>
+      <p>Por favor, entre em contato.</p>
+      <section>
+        <input
+          type="text"
+          placeholder="O que deseja saber sobre o Universo?"
+          id="campo-pesquisa"
+        /><br />
+        <button class="button" onclick="pesquisar()">Buscar</button>
+      </section>
+      <div><br /></div>
+      <!-- Exibição do conteúdo dados.js por meio do app.js -->
+      <section class="conteudo" id="resultado-pesquisa"></section>
+    </main>
+    <footer><p>2024 - Todos os direitos reservados.</p></footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
