@@ -32,61 +32,78 @@ let dados = [
     ];
 
 let planetas = [
-{
-nome: "Mercúrio",
-massa: 0.055, // Em relação à massa da Terra
-distanciaTerra: 57.9, // Em milhões de km
-distanciaSol: 57.9, // Em milhões de km
-descricao: "O menor e mais próximo do Sol dos oito planetas clássicos do Sistema Solar."
-},
-{
-nome: "Vênus",
-massa: 0.815,
-distanciaTerra: 41.4,
-distanciaSol: 108.2,
-descricao: "O segundo planeta mais próximo do Sol e o mais quente do sistema solar."
-},
-{
-nome: "Terra",
-massa: 1,
-distanciaTerra: 0,
-distanciaSol: 149.6,
-descricao: "O terceiro planeta a partir do Sol e o único com vida conhecida."
-},
-{
-nome: "Marte",
-massa: 0.107,
-distanciaTerra: 78.3,
-distanciaSol: 227.9,
-descricao: "Conhecido como o 'Planeta Vermelho', Marte é um dos mais estudados do sistema solar."
-},
-{
-nome: "Júpiter",
-massa: 317.8,
-distanciaTerra: 628.7,
-distanciaSol: 778.5,
-descricao: "O maior planeta do sistema solar, um gigante gasoso com uma Grande Mancha Vermelha."
-},
-{
-nome: "Saturno",
-massa: 95.2,
-distanciaTerra: 1275,
-distanciaSol: 1427,
-descricao: "Famoso por seus anéis, Saturno é outro gigante gasoso."
-},
-{
-nome: "Urano",
-massa: 14.5,
-distanciaTerra: 2872.5,
-distanciaSol: 2875,
-descricao: "Um gigante de gelo, Urano rotaciona de lado em relação ao plano de sua órbita."
-},
-{
-nome: "Netuno",
-massa: 17.1,
-distanciaTerra: 4504,
-distanciaSol: 4504,
-descricao: "O planeta mais distante do Sol e um gigante de gelo."
-}
-];
+    {
+    nome: "Mercúrio",
+    massa: 0.055, // Em relação à massa da Terra
+    distanciaTerra: 57.9, // Em milhões de km
+    distanciaSol: 57.9, // Em milhões de km
+    descricao: "O menor e mais próximo do Sol dos oito planetas clássicos do Sistema Solar.",
+    imagem: "img/mercurio.png",
+    tags: "mercurio mercury"
+    },
+    {
+    nome: "Vênus",
+    massa: 0.815,
+    distanciaTerra: 41.4,
+    distanciaSol: 108.2,
+    descricao: "O segundo planeta mais próximo do Sol e o mais quente do sistema solar.",
+    imagem: "img/venus.jpg",
+    tags: "venus"
+    },
+    {
+    nome: "Terra",
+    massa: 1,
+    distanciaTerra: 0,
+    distanciaSol: 149.6,
+    descricao: "O terceiro planeta a partir do Sol e o único com vida conhecida.",
+    imagem: "img/terra.jpg",
+    tags: "terra earth"
+    },
+    {
+    nome: "Marte",
+    massa: 0.107,
+    distanciaTerra: 78.3,
+    distanciaSol: 227.9,
+    descricao: "Conhecido como o 'Planeta Vermelho', Marte é um dos mais estudados do sistema solar.",
+    imagem: "img/marte.jpg",
+    tags: "marte mars"
+    },
+    {
+    nome: "Júpiter",
+    massa: 317.8,
+    distanciaTerra: 628.7,
+    distanciaSol: 778.5,
+    descricao: "O maior planeta do sistema solar, um gigante gasoso com uma Grande Mancha Vermelha.",
+    imagem: "img/jupiter.jpg",
+    tags: "jupiter jupyter"
+    },
+    {
+    nome: "Saturno",
+    massa: 95.2,
+    distanciaTerra: 1275,
+    distanciaSol: 1427,
+    descricao: "Famoso por seus anéis, Saturno é outro gigante gasoso.",
+    imagem: "img/saturno.jpg",
+    tags: "saturno saturn"
+    },
+    {
+    nome: "Urano",
+    massa: 14.5,
+    distanciaTerra: 2872.5,
+    distanciaSol: 2875,
+    descricao: "Um gigante de gelo, Urano rotaciona de lado em relação ao plano de sua órbita.",
+    imagem: "img/urano.png",
+    tags: "urano uranus"
+    },
+    {
+    nome: "Netuno",
+    massa: 17.1,
+    distanciaTerra: 4504,
+    distanciaSol: 4504,
+    descricao: "O planeta mais distante do Sol e um gigante de gelo.",
+    imagem: "img/netuno.jpg",
+    tags: "netuno neptune"
+    }
+    ];
+    
 

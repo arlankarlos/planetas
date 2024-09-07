@@ -178,3 +178,12 @@ main {
     flex: 1;
     /* Permite que o conteúdo principal ocupe o espaço restante */
 }
+
+.resized-image {
+    max-width: 200px;
+    height: auto;
+}
+
+.container-img {
+    text-align: center;
+  }
