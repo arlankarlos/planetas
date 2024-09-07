@@ -3,6 +3,9 @@ body {
     text-align: center;
     color: #fff;
     font-family: 'Space Age', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 input[type="text"] {
@@ -26,6 +29,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 20px;
 }
 
 header {
@@ -34,7 +38,7 @@ header {
     color: #fff;
     /* Texto branco para contraste */
     text-align: center;
-    padding: 2rem;
+    
 }
 
 header h1 {
@@ -66,16 +70,36 @@ header nav li a:hover {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 2rem;
+    padding: 20px;
     text-align: center;
 }
 
 footer p {
     margin-bottom: 0;
+    /* Remove o margin do rodapé */
+    color: blanchedalmond;
+    /* Alinhar rodapé fixo no final da página*/
+    font-family: 'Space Age', sans-serif;
+    /* Usar a mesma fonte do corpo */
+}
+
+
+footer p a {
+    margin-bottom: 0;
+    /* Remove o margin do rodapé */
+    color: rgb(134, 134, 133);
+    /* Alinhar rodapé fixo no final da página*/
+    font-family: 'Space Age', sans-serif;
+    /* Usar a mesma fonte do corpo */
+    text-decoration: none;
+    /* Remove o sublinhado padrão */
+    transition: color 0.3s ease;
+    /* Adiciona uma transição para efeito de hover */
+    font-style: oblique;
 }
 
 .sticky-footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -146,6 +170,11 @@ button {
 
 button:hover {
     background-color: #424342;
-    
+
     /* Verde mais escuro para efeito de hover */
+}
+
+main {
+    flex: 1;
+    /* Permite que o conteúdo principal ocupe o espaço restante */
 }

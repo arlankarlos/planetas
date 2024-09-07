@@ -6,6 +6,7 @@
 function pesquisar() {
   let section = document.getElementById("resultado-pesquisa");
 
+
   let campoPesquisa = document.getElementById("campo-pesquisa").value;
 
   if (campoPesquisa ==""){
@@ -47,3 +48,15 @@ function pesquisar() {
 
   section.innerHTML = resultados;
 }
+
+const input = document.getElementById("campo-pesquisa");
+const botao = document.getElementById("meuBotao");
+input.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    botao.click();
+  }
+})
+
+
+
+
